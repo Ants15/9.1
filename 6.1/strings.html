@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What?</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>
+        Page of FUN!
+    </h1>
+    <button onclick="startPalindromeChecker()" id="start">Start</button>
+    <input type="text" id="firstName" placeholder="First Name">
+    <!-- this creates an input box to the first, last and zip inputs. -->
+    <input type="text" id="lastName" placeholder="Last Name"><br>
+    <input type="text" id="zip" placeholder="Zip Code (5 digits only)"> <br>
+    <button onclick="validateInputs()"> Continue</button>
+    <!-- this allows the button to activate the Java file and run the validations -->
+    <div id="output"></div>
+    <img src="funny.jpg" alt="secret scroll" id="secretimg" style="display: none;">   
+    <script src="strings.js"></script>
+</body>
+<footer>
+    <button onclick="displayimage()" id="supersecret">Click for extra funny stuff</button>
+    <img src="funnier.jpg" id="sprscrt" style="display: none;">
+</footer>
+</html>
